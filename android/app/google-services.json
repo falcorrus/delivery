@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "405573195235",
+    "project_id": "happygo-prod",
+    "storage_bucket": "happygo-prod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405573195235:android:4085be30bc5bae12fdfcd6",
+        "android_client_info": {
+          "package_name": "com.happygo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405573195235-d9m4flkkij5v85gbfk78j98736urfvu0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.happygo",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "405573195235-2c5qrtauoe129sr4vpd3t8lsfp6tjjqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9x1nN_H5J9NEkn0IhDpmLCQOPTkQUt4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405573195235-2c5qrtauoe129sr4vpd3t8lsfp6tjjqr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "405573195235-7avpg6o0m0ag465r6n0htnok1mu6f3br.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.happygo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405573195235:android:74d30a952144b2bdfdfcd6",
+        "android_client_info": {
+          "package_name": "com.mycompany.happydelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405573195235-2c5qrtauoe129sr4vpd3t8lsfp6tjjqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9x1nN_H5J9NEkn0IhDpmLCQOPTkQUt4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405573195235-2c5qrtauoe129sr4vpd3t8lsfp6tjjqr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "405573195235-7avpg6o0m0ag465r6n0htnok1mu6f3br.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.happygo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

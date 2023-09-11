@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>405573195235-7avpg6o0m0ag465r6n0htnok1mu6f3br.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.405573195235-7avpg6o0m0ag465r6n0htnok1mu6f3br</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>405573195235-d9m4flkkij5v85gbfk78j98736urfvu0.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC2vH5KUwAQi15KlhYk3Av2QJ5iJSH7pNw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>405573195235</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.happygo</string>
+	<key>PROJECT_ID</key>
+	<string>happygo-prod</string>
+	<key>STORAGE_BUCKET</key>
+	<string>happygo-prod.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:405573195235:ios:1ed5f8c559e7444ffdfcd6</string>
+</dict>
+</plist>
