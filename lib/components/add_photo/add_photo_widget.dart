@@ -73,7 +73,7 @@ class _AddPhotoWidgetState extends State<AddPhotoWidget> {
                     ),
                   );
                 },
-              ).then((value) => setState(() {}));
+              ).then((value) => safeSetState(() {}));
             },
             child: Container(
               width: double.infinity,

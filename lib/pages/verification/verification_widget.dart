@@ -125,7 +125,7 @@ class _VerificationWidgetState extends State<VerificationWidget> {
                                       ),
                                     );
                                   },
-                                ).then((value) => setState(() {}));
+                                ).then((value) => safeSetState(() {}));
                               },
                               child: Material(
                                 color: Colors.transparent,

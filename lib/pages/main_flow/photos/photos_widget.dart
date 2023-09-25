@@ -687,7 +687,8 @@ class _PhotosWidgetState extends State<PhotosWidget>
                                                             );
                                                           },
                                                         ).then((value) =>
-                                                            setState(() {}));
+                                                            safeSetState(
+                                                                () {}));
                                                       },
                                                     ),
                                                   ),

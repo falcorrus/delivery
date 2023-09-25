@@ -69,7 +69,7 @@ class _RecognitionDoneWidgetState extends State<RecognitionDoneWidget> {
                       child: CreatePhotoStringWidget(),
                     );
                   },
-                ).then((value) => setState(() {}));
+                ).then((value) => safeSetState(() {}));
               },
               child: Container(
                 width: 352.0,

@@ -29,6 +29,10 @@ class BindingModel extends FlutterFlowModel {
   TextEditingController? inputField4Controller;
   final inputField4Mask = MaskTextInputFormatter(mask: '####');
   String? Function(BuildContext, String?)? inputField4ControllerValidator;
+  // State field(s) for TextField-sms widget.
+  TextEditingController? textFieldSmsController;
+  final textFieldSmsMask = MaskTextInputFormatter(mask: '####');
+  String? Function(BuildContext, String?)? textFieldSmsControllerValidator;
   // Stores action output result for [Backend Call - API (nextmodule)] action in Button-more widget.
   ApiCallResponse? apiResult;
 
@@ -43,6 +47,7 @@ class BindingModel extends FlutterFlowModel {
     rowBackModel.dispose();
     inputField6Controller?.dispose();
     inputField4Controller?.dispose();
+    textFieldSmsController?.dispose();
   }
 
   /// Action blocks are added here.

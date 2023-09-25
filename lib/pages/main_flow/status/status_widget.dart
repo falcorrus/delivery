@@ -676,7 +676,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -771,7 +771,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -1085,7 +1085,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -1180,7 +1180,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -1647,7 +1647,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -1742,7 +1742,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -2205,7 +2205,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -2300,7 +2300,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -2784,7 +2784,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
@@ -2879,7 +2879,7 @@ class _StatusWidgetState extends State<StatusWidget> {
                                             ),
                                           );
                                         },
-                                      ).then((value) => setState(() {}));
+                                      ).then((value) => safeSetState(() {}));
                                     },
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,

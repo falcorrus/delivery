@@ -98,7 +98,7 @@ class _PhotoVerificationWidgetState extends State<PhotoVerificationWidget> {
                         child: CreatePhotoStringWidget(),
                       );
                     },
-                  ).then((value) => setState(() {}));
+                  ).then((value) => safeSetState(() {}));
                 },
                 child: Container(
                   width: 352.0,

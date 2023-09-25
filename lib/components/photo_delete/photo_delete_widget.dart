@@ -75,7 +75,7 @@ class _PhotoDeleteWidgetState extends State<PhotoDeleteWidget> {
                     child: CreatePhotoStringWidget(),
                   );
                 },
-              ).then((value) => setState(() {}));
+              ).then((value) => safeSetState(() {}));
             },
             child: Container(
               width: 352.0,

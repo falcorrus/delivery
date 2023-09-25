@@ -351,7 +351,7 @@ class _SigningAgentWidgetState extends State<SigningAgentWidget> {
                                     ),
                                   );
                                 },
-                              ).then((value) => setState(() {}));
+                              ).then((value) => safeSetState(() {}));
 
                               logFirebaseEvent('Button-more_navigate_to');
 

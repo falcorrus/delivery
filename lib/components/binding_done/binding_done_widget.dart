@@ -69,7 +69,7 @@ class _BindingDoneWidgetState extends State<BindingDoneWidget> {
                       child: CreatePhotoStringWidget(),
                     );
                   },
-                ).then((value) => setState(() {}));
+                ).then((value) => safeSetState(() {}));
               },
               child: Container(
                 width: 352.0,

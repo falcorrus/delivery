@@ -40,6 +40,7 @@ class _BindingWidgetState extends State<BindingWidget> {
     logFirebaseEvent('screen_view', parameters: {'screen_name': 'Binding'});
     _model.inputField6Controller ??= TextEditingController();
     _model.inputField4Controller ??= TextEditingController();
+    _model.textFieldSmsController ??= TextEditingController();
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
@@ -118,7 +119,7 @@ class _BindingWidgetState extends State<BindingWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               22.0, 0.0, 22.0, 10.0),
                           child: Text(
-                            'Введите первые 6 цифр и последние 4 цифры номера карты в форму ниже для привязки карты.',
+                            'Введите ID карты и последние 4 цифры номера карты для привязки карты.',
                             textAlign: TextAlign.center,
                             style: FlutterFlowTheme.of(context)
                                 .bodyMedium
@@ -323,6 +324,67 @@ class _BindingWidgetState extends State<BindingWidget> {
                             decoration: BoxDecoration(
                               color: Color(0xFFF3F5F7),
                               borderRadius: BorderRadius.circular(30.0),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              25.0, 20.0, 26.0, 0.0),
+                          child: Container(
+                            height: 47.0,
+                            decoration: BoxDecoration(
+                              color: FlutterFlowTheme.of(context)
+                                  .secondaryBackground,
+                              borderRadius: BorderRadius.circular(30.0),
+                            ),
+                            child: TextFormField(
+                              controller: _model.textFieldSmsController,
+                              autofocus: true,
+                              obscureText: false,
+                              decoration: InputDecoration(
+                                hintText: 'Введите ID карты',
+                                hintStyle: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      fontFamily: 'Montserrat',
+                                      color: FlutterFlowTheme.of(context)
+                                          .primaryText,
+                                    ),
+                                enabledBorder: UnderlineInputBorder(
+                                  borderSide: BorderSide(
+                                    color: Color(0x00000000),
+                                    width: 1.0,
+                                  ),
+                                  borderRadius: BorderRadius.circular(30.0),
+                                ),
+                                focusedBorder: UnderlineInputBorder(
+                                  borderSide: BorderSide(
+                                    color: Color(0x00000000),
+                                    width: 1.0,
+                                  ),
+                                  borderRadius: BorderRadius.circular(30.0),
+                                ),
+                                errorBorder: UnderlineInputBorder(
+                                  borderSide: BorderSide(
+                                    color: Color(0x00000000),
+                                    width: 1.0,
+                                  ),
+                                  borderRadius: BorderRadius.circular(30.0),
+                                ),
+                                focusedErrorBorder: UnderlineInputBorder(
+                                  borderSide: BorderSide(
+                                    color: Color(0x00000000),
+                                    width: 1.0,
+                                  ),
+                                  borderRadius: BorderRadius.circular(30.0),
+                                ),
+                              ),
+                              style: FlutterFlowTheme.of(context).bodyMedium,
+                              textAlign: TextAlign.center,
+                              keyboardType: TextInputType.number,
+                              validator: _model.textFieldSmsControllerValidator
+                                  .asValidator(context),
+                              inputFormatters: [_model.textFieldSmsMask],
                             ),
                           ),
                         ),
